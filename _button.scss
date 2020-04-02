@@ -1,0 +1,35 @@
+$borderradius: 25px;
+$paddingright: 10px;
+$paddingleft: 10px;
+$color: cornsilk;
+$backgroundcolor: rgb(247, 95, 7);
+$margin: 5px;
+$hovercolor:rgb(15, 134, 214);
+$fpadding:10px;
+$fpaddingtop:40px;
+$fcolor: cornsilk;
+$fhover: darkorange;
+
+.btn--color {
+    border-radius: $borderradius;
+    padding-right: $paddingright;
+    padding-left: $paddingleft;
+    color: $color;
+    background-color: $backgroundcolor;
+    margin: $margin;
+    
+}
+
+.btn--color:hover {
+    background-color: $hovercolor;
+}
+
+.fab{
+    padding: $fpadding;
+    padding-top: $fpaddingtop;
+    color: $fcolor;
+}
+
+.fab:hover{
+    color: $fhover;
+}

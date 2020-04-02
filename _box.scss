@@ -1,0 +1,30 @@
+$display: flex;
+$background-color: rgb(36, 35, 35);
+$height: 15vh;
+$paddingleft: 10px;
+$paddingtop: 20px;
+$color: darkorange;
+$marginleft: 40px;
+$marginright: 40px;
+$paddingtop: 20px;
+$padding-top: 40px;
+
+.box {
+    display: $display;
+    background-color: $background-color;
+    height: $height;
+    padding-left: $paddingleft;
+    padding-top: $paddingtop;
+}
+
+h3 {
+    color: $color;
+    margin-left: $marginleft;
+    margin-right: $marginright;
+    padding-top: $paddingtop;
+}
+
+.input {
+    padding-top: $padding-top;
+}
+

@@ -1,0 +1,22 @@
+$textAlign: center;
+$paddingTop: 200px;
+$color: cornsilk;
+$fontsize: 15px;
+$padding-top: 1px;
+$padding-bottom: 1px;
+$background: rgb(15, 134, 214);
+
+.char {
+    text-align: $textAlign;
+    padding-top: $paddingTop;
+    padding-left: 0px;
+}
+
+footer {
+    text-align: $textAlign;
+    font-size: $fontsize;
+    color: $color;
+    background-color: $background;
+    padding-top: $padding-top;
+    padding-bottom: $padding-bottom;
+}

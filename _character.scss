@@ -1,0 +1,20 @@
+$myColor: cornsilk;
+$mydisplay: flex;
+$myAlignSelf: center;
+$justifyContent: center;
+$myHeight: 70vh;
+$img: url('img/website_background_wallpapers_011.jpg');
+$background: rgb(245, 239, 239);
+$bsize: cover;
+
+.container {
+    color: $myColor;
+    display: $mydisplay;
+    align-self: $myAlignSelf;
+    justify-content: $justifyContent;
+    height: $myHeight;
+    background-color: $background;
+    background-image: $img;
+    background-size: $bsize;
+}
+

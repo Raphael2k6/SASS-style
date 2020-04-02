@@ -1,0 +1,43 @@
+$myFont: arial, Helvitica, sans-serif;
+$myColor: darkorange;
+$myFontSize: 1em;
+$myMargin: auto 0;
+$myBackground: rgb(36, 35, 35);
+$myPadding: 20px;
+$myMarginLeft: auto;
+$hoverColor: cornsilk;
+
+body {
+    font-family: $myFont;
+    margin: $myMargin;
+}
+
+nav {
+    ul {
+        display: flex;
+        list-style: none;
+        font-size: $myFontSize;
+        margin: 0;
+        background-color: $myBackground;
+    }
+    li {
+        padding: $myPadding;
+    }            
+    a {
+        color: $myColor;
+        text-decoration: none;
+    }
+}
+
+.push {
+    margin-left: $myMarginLeft;
+}
+
+a:hover {
+    color: $hoverColor
+}
+
+@import 'character';
+@import 'char12';
+@import 'box';
+@import 'button';
